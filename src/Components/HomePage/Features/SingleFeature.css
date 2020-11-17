@@ -1,0 +1,18 @@
+.feature-container {
+  min-height: 50vh;
+  margin: 30px 0;
+  background-position: top left;
+  background-size: cover;
+
+  position: relative;
+}
+
+/* .feature-container::before {
+  position: absolute;
+  min-height: 50vh;
+  content: "";
+  background-color: rgba(37, 26, 26, 0.8);
+  left: 0;
+  right: 0;
+  top: 0;
+} */

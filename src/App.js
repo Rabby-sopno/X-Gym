@@ -1,15 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-import Footer from './Components/Footer/Footer';
-import Speciality from './Components/Speciality/Speciality';
-import Training from './Components/Training/Training';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+// import Home from "./components/HomePage/Home";
+import Home from "./Components/HomePage/Home";
 
 function App() {
   return (
     <div className="App">
-      <Training></Training>
-      <Speciality></Speciality>
-      <Footer></Footer>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home}></Route>
+          <Route path="/home" component={Home}>
+            <Home />
+          </Route>
+          <Route path="/service"></Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
