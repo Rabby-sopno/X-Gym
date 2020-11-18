@@ -5,8 +5,8 @@ import "./Training.css";
 
 function Training() {
   return (
-    <div className="container mb-3">
-      <h3 className="mb-5">
+    <div className="container mb-3 mt-3">
+      <h3 className="mb-5 font-weight-bold">
         TRAINING <span style={{ color: "#FFC300" }}>PROGRAMS</span>
       </h3>
       <div class="row row-cols-1 row-cols-md-2">
