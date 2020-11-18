@@ -1,0 +1,28 @@
+.head {
+    background-image: url(../../../image/banner.jpg);
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 50vh;
+    /* z-index: 100; */
+  }
+  .head::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(37, 26, 26, 0.8);
+    left: 0;
+    right: 0;
+    top: 0;
+    min-height: 50vh;
+  }
+  
+  .head .navbar {
+    max-height: 10vh;
+    color: white;
+  }
+  .head h1{
+    padding-top: 100px;
+    padding-left: 45%;
+    color: white;
+  }
