@@ -1,0 +1,12 @@
+.img-cls{
+    height: 290px;
+    width: 290px;
+    border-radius: 5px
+}
+.bg-cls{
+    padding-top: 15px;
+    height: 60px;
+    width: 255px; 
+    border-radius: 0 0 5px 5px;
+    margin-left: 15px;
+}

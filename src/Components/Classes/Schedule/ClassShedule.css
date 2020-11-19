@@ -1,0 +1,46 @@
+.our_class_info img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.font {
+  color: yellow;
+}
+
+.shedule h1 {
+  display: flex;
+}
+.sc {
+  color: yellow;
+}
+
+.con {
+  width: 800px;
+  display: table;
+}
+
+.rows {
+  margin: 20px;
+}
+.rows small {
+  color: rgb(243, 163, 13);
+  font-size: 20px;
+}
+
+.column {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.column {
+  border: 2px solid white;
+  border-radius: 5px;
+  /* width: 40%; */
+}
+.img-schedule {
+  height: auto;
+  width: 100%;
+}

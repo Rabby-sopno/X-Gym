@@ -1,0 +1,23 @@
+.inp{
+    background-color: rgb(250, 186, 10);
+    }
+    #credit_cards img{
+    width:20%;
+    margin: 2px;
+    
+    }
+    .input{
+        width: 400%;
+    }
+    .inp-ctrl{
+    width: 120%;
+    }
+    
+    .bankform{
+    
+        border: 1px solid black;
+      padding: 30px;
+      width: 100%;
+      border-radius: 5px;
+    
+    }
