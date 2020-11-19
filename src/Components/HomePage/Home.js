@@ -9,7 +9,7 @@ import Header from "../CommonComponent/Header/Header";
 const Home = () => {
   return (
     <div>
-      <Header callFrom="home" />
+      <Header callFrom="home" />main
       <Features />
       <AboutUs></AboutUs>
       <Training></Training>

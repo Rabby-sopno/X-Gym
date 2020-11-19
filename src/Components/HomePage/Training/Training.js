@@ -7,6 +7,7 @@ function Training() {
   return (
     <div className="container my-3 mt-3">
       <h3 className="my-5 font-weight-bold text-center">
+
         TRAINING <span style={{ color: "#FFC300" }}>PROGRAMS</span>
       </h3>
       <div class="row row-cols-1 row-cols-md-2">

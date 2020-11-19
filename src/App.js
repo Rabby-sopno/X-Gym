@@ -36,6 +36,8 @@ function App() {
           </Route>
           <Route exact path="/" component={Home}>
             <Home></Home>
+
+
           </Route>
         </Switch>
       </Router>

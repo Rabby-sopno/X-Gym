@@ -6,10 +6,12 @@ const Navbar = () => {
   return (
     <>
       <ReactBootStrap.Navbar
+
         fixed="top"
         collapseOnSelect
         expand="lg"
         style={{ backgroundColor: "rgba(37, 26, 26, 1)" }}
+
         variant="dark"
       >
         <ReactBootStrap.Navbar.Brand href="#home">
@@ -21,6 +23,7 @@ const Navbar = () => {
         <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
           <ReactBootStrap.Nav className="ml-auto text-white">
             <Link to="/Home">
+
               <ReactBootStrap.Nav.Link href="#home">
                 Home
               </ReactBootStrap.Nav.Link>

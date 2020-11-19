@@ -6,6 +6,7 @@ import "./Speciality.css";
 
 function Speciality() {
   return (
+
     <div className="container my-3">
       <h3 className="my-5 font-weight-bold text-center">
         <span style={{ color: "#FFC300" }}>WHY</span> CHOOSE US

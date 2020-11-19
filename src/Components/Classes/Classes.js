@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import FakeData from "../../FakeData/FakeData";
@@ -41,3 +42,4 @@ const Classes = () => {
 };
 
 export default Classes;
+
